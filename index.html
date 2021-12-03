@@ -5,9 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="script.js">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script type="text/javascript" src="script.js"></script> 
+    <div class="titleBox">
+        <h1 class="title">Rock Paper Scissors</h1>
+    </div>
+    <div class="counters">
+        <!-- here js updates the counters -->
+        <p class="winCounter">Player's Score: 0</p>
+        <p class="loseCounter">Computer's Score: 0</p>
+
+    </div>
+    <div class="buttons">
+        <button class="btn" id="rock">Rock</button>
+        <button class="btn" id="paper">Paper</button>
+        <button class="btn" id="scissors">Scissors</button>
+    </div>
+    <div class="results">
+        <!-- here js posts the results-->
+        <p id="result"></p>
+    </div>
+    <div class="announcement">
+        <p class="winner"></p>
+    </div>
+    <script type="text/javascript" src="script.js" defer></script> 
 </body>
 </html>
